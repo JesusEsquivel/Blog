@@ -1,2 +1,2 @@
 # Blog
-Using Redux and React and heroku
+Using Redux, React and heroku to make a smiple blog 
