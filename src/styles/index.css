@@ -1,0 +1,18 @@
+body{
+  background-color: rgb(49, 50, 51);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.centerr{
+  text-align: center;
+ margin-left: 52px;
+ 
+}
+
+.center{
+  text-align: center;
+}
