@@ -5,12 +5,10 @@ import { Link } from 'react-router-dom';
 import { fetchPosts } from '../actions';
 import '../styles/index.css';
 
-
 class PostsIndex extends Component {
     componentDidMount(){
         this.props.fetchPosts();
     }
-
     renderPosts(){
         return _.map(this.props.posts, post => {
             return (
@@ -27,7 +25,6 @@ class PostsIndex extends Component {
                 </div>
                 </div>
                 </div>
-                
             );
         });
     }
@@ -40,14 +37,10 @@ class PostsIndex extends Component {
                         Add a Post
                     </Link>
                 </div>
-             
-                
                 <div>
                     {this.renderPosts()}
-                    
                 </div>
                 </div>
-            
         );
     }
 }
