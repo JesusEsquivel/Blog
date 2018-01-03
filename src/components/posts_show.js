@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Link } from  'react-router-dom';
 import { fetchPost, deletePost } from '../actions';
 
-
 class PostsShow extends Component {
     ComponentDidMount(){
         const {id} = this.props.match.params;
